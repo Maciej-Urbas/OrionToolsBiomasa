@@ -1,0 +1,88 @@
+.about {
+  width: 100%;
+  background-color: #ffffff;
+
+  position: relative;
+  left: 0;
+  top: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Titillium Web", sans-serif;
+}
+
+@media screen and (min-width: 2px) and (max-width: 776px) {
+  .about_img {
+    height: clamp(min(72px), 34vw, max(156.06px));
+    margin-top: 6vw;
+  }
+  .about-descriptions {
+    width: clamp(min(193.2px), 92vw, max(592px));
+    background-color: #d9d9d9;
+
+    margin-top: 6vw;
+    padding-bottom: 4vw;
+
+    display: flex;
+    flex-direction: column;
+  }
+  .about-descriptions_item {
+    width: 86%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+  }
+  .item-title {
+    margin-top: 3vw;
+    margin-left: 6vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: center;
+  }
+  .item-title_hr {
+    width: 28vw;
+    height: clamp(min(1px), 0.26vw, max(5px));
+    background-color: #000000;
+  }
+  .item-title_numbers {
+    font-size: clamp(min(26px), 12.38vw, max(64px));
+    font-weight: bolder;
+    opacity: 0.15;
+  }
+  .item-title_title::after {
+    content: "";
+    width: 16vw;
+    height: clamp(min(1px), 0.476vw, max(2px));
+    background-color: #000000;
+
+    margin: 0;
+
+    position: relative;
+    top: 0.8vw;
+    right: clamp(min(1px), 8vw, max(30px));
+
+    display: block;
+  }
+  .item-title_title {
+    font-size: clamp(min(12px), 5.714vw, max(30px));
+    font-weight: bold;
+
+    position: relative;
+    top: 1.2vw;
+    right: 5vw;
+  }
+  .item-description {
+    width: 80%;
+    margin: auto;
+
+    font-size: clamp(min(8px), 3.809vw, max(20px));
+    text-align: center;
+  }
+}
