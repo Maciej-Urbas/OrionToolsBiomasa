@@ -13,6 +13,9 @@
 
   font-family: "Titillium Web", sans-serif;
 }
+.item-title_numbers {
+  font-family: "Abel", sans-serif;
+}
 
 @media screen and (min-width: 2px) and (max-width: 776px) {
   .about_img {
@@ -65,7 +68,7 @@
     margin: 0;
 
     position: relative;
-    top: 0.8vw;
+    top: 0.4vw;
     right: clamp(min(1px), 8vw, max(30px));
 
     display: block;
@@ -75,8 +78,8 @@
     font-weight: bold;
 
     position: relative;
-    top: 1.2vw;
-    right: 5vw;
+    top: 1vw;
+    right: 4.2vw;
   }
   .item-description {
     width: 80%;
