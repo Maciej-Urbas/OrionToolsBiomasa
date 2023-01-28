@@ -21,6 +21,29 @@
 .wood-title_title {
   font-family: "Titillium Web", sans-serif;
 }
+.wood-card-description_p {
+  white-space: pre-line;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
 
 @media screen and (min-width: 1281px) and (max-width: 1920px) {
   .wood-title {
@@ -261,6 +284,19 @@
 }
 
 @media screen and (min-width: 2px) and (max-width: 776px) {
+  .mySwiperSmall1 {
+    width: clamp(min(178px), 64vw, max(496.64px));
+    height: 100%;
+
+    margin-top: 2vw;
+  }
+  .mySwiperSmall2 {
+    width: clamp(min(178px), 64vw, max(496.64px));
+    height: 100%;
+
+    margin-top: 2vw;
+  }
+
   .wood-title {
     margin-top: 3vw;
 
@@ -284,17 +320,19 @@
     right: 4.2vw;
   }
 
-  .wood-cards {
-    margin-top: 1vw;
-
+  .wood-buttons-helper {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+
     justify-content: center;
     align-items: center;
   }
+
   .card-buttons_left {
-    width: clamp(min(15px), 5.797vw, max(45px));
-    height: clamp(min(15px), 5.797vw, max(45px));
+    width: clamp(min(20px), 5.797vw, max(45px));
+    height: clamp(min(20px), 5.797vw, max(45px));
+
+    margin-bottom: 9vw;
 
     background-image: url("../../assets/arrow_left.png");
     background-size: cover;
@@ -302,8 +340,10 @@
     border: none;
   }
   .card-buttons_right {
-    width: clamp(min(15px), 5.797vw, max(45px));
-    height: clamp(min(15px), 5.797vw, max(45px));
+    width: clamp(min(20px), 5.797vw, max(45px));
+    height: clamp(min(20px), 5.797vw, max(45px));
+
+    margin-bottom: 9vw;
 
     background-image: url("../../assets/arrow_right.png");
     background-size: cover;
@@ -311,52 +351,51 @@
     border: none;
   }
 
-  .wood-cards {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
   .wood-card {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 1.8vw;
-  }
-  .wood-card-card {
-    width: 38.386vw;
+    width: clamp(min(116px), 40vw, max(310.4px));
     margin: auto;
-    background-color: #ffffff;
+    background-color: #353d4d;
+
+    padding-bottom: clamp(min(38px), 8vw, max(62px));
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .wood-card-card_img {
-    width: 38.386vw;
-    height: 30.516vw;
+
+  .wood-card-img_helper {
+    width: 100%;
+    background-color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-  .wood-card-card-description {
+  .wood-card_img {
+    width: clamp(min(116px), 40vw, max(310.4px));
+    height: clamp(min(92.22px), 31.8vw, max(246.8px));
+  }
+  .wood-card-description {
     width: 100%;
     background-color: #d9d9d9;
 
-    padding-bottom: 3vw;
+    padding-bottom: clamp(min(10px), 4vw, max(31px));
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .wood-card-card-description_p {
-    font-size: clamp(min(8px), 3.809vw, max(20px));
+  .wood-card-description_p {
+    font-size: clamp(min(8px), 2.577vw, max(20px));
     font-weight: bold;
     text-align: center;
   }
-  .wood-card-card-description_button {
-    width: 28vw;
-    height: 9.4vw;
+  .wood-card-description_button {
+    width: clamp(min(81.2px), 28vw, max(217px));
+    height: clamp(min(27.26px), 9.4vw, max(73px));
 
     display: flex;
     justify-content: center;
@@ -366,7 +405,8 @@
     border: none;
 
     color: #ffffff;
-    font-size: clamp(min(8px), 3.809vw, max(16px));
+    font-size: clamp(min(8px), 2.061vw, max(16px));
+    font-weight: bold;
   }
 
   .wood-description {
@@ -383,17 +423,4 @@
     font-size: clamp(min(8px), 3.809vw, max(20px));
     color: white;
   }
-}
-
-.card-marginTop6vw {
-  margin-top: 6vw;
-}
-.card-marginTop0 {
-  margin-top: 0;
-}
-.card-displayNone {
-  display: none;
-}
-.card-displayFlex {
-  display: flex;
 }

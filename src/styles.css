@@ -8,6 +8,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&family=Judson&family=Titillium+Web:wght@200;300;400&display=swap");
 /* font-family: 'Abel', sans-serif; */
 
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
+
 .color_primary {
   color: #00963f;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #000 !important;
 }
