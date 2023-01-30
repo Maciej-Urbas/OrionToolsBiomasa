@@ -46,6 +46,23 @@
 }
 
 @media screen and (min-width: 1281px) and (max-width: 1920px) {
+  .mySwiperSmall1 {
+    display: none;
+  }
+  .mySwiperSmall2 {
+    display: none;
+  }
+  .mySwiperMedium {
+    display: none;
+  }
+  .mySwiperLarge {
+    width: 82vw;
+    height: 100%;
+
+    margin-top: 2vw;
+    padding-bottom: 4vw;
+  }
+
   .wood-title {
     margin-top: 3vw;
 
@@ -69,41 +86,8 @@
     right: 3.5vw;
   }
 
-  .card-buttons_left {
-    width: clamp(min(35px), 4.166vw, max(80px));
-    height: clamp(min(35px), 4.166vw, max(80px));
-
-    background-image: url("../../assets/arrow_left.png");
-    background-size: cover;
-    background-color: #353d4d;
-    border: none;
-  }
-  .card-buttons_right {
-    width: clamp(min(35px), 4.166vw, max(80px));
-    height: clamp(min(35px), 4.166vw, max(80px));
-
-    background-image: url("../../assets/arrow_right.png");
-    background-size: cover;
-    background-color: #353d4d;
-    border: none;
-  }
-
-  .wood-cards {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 3vw;
-  }
   .wood-card {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 1.8vw;
-  }
-  .wood-card-card {
-    width: 24vw;
+    width: 17.76vw;
     margin: auto;
     background-color: #ffffff;
 
@@ -112,11 +96,11 @@
     justify-content: center;
     align-items: center;
   }
-  .wood-card-card_img {
-    width: 24vw;
-    height: 19.079vw;
+  .wood-card_img {
+    width: 17.76vw;
+    height: 14.118vw;
   }
-  .wood-card-card-description {
+  .wood-card-description {
     width: 100%;
     background-color: #d9d9d9;
 
@@ -127,14 +111,14 @@
     justify-content: center;
     align-items: center;
   }
-  .wood-card-card-description_p {
+  .wood-card-description_p {
     font-size: clamp(min(16px), 1.25vw, max(24px));
     font-weight: bold;
     text-align: center;
   }
-  .wood-card-card-description_button {
-    width: 17.588vw;
-    height: 5.904vw;
+  .wood-card-description_button {
+    width: 13vw;
+    height: 3vw;
 
     display: flex;
     justify-content: center;
@@ -144,7 +128,7 @@
     border: none;
 
     color: #ffffff;
-    font-size: clamp(min(13.3px), 10.041vw, max(20px));
+    font-size: clamp(min(13.3px), 1.04vw, max(20px));
   }
 
   .wood-description {
@@ -152,7 +136,7 @@
     background-color: rgba(255, 255, 255, 0.15);
 
     margin: auto;
-    margin-top: 3vw;
+    margin-top: 2vw;
 
     padding: 2vw 2vw 1vw 2vw;
 
@@ -164,6 +148,23 @@
 }
 
 @media screen and (min-width: 777px) and (max-width: 1280px) {
+  .mySwiperSmall1 {
+    display: none;
+  }
+  .mySwiperSmall2 {
+    display: none;
+  }
+  .mySwiperLarge {
+    display: none;
+  }
+  .mySwiperMedium {
+    width: clamp(min(592.46px), 76.25vw, max(976px));
+    height: 100%;
+
+    margin-top: 2vw;
+    padding-bottom: clamp(min(44px), 4vw, max(52px));
+  }
+
   .wood-title {
     margin-top: 3vw;
 
@@ -189,54 +190,24 @@
     right: 3.6vw;
   }
 
-  .card-buttons_left {
-    width: clamp(min(20px), 4.687vw, max(60px));
-    height: clamp(min(20px), 4.687vw, max(60px));
-
-    background-image: url("../../assets/arrow_left.png");
-    background-size: cover;
-    background-color: #353d4d;
-    border: none;
-  }
-  .card-buttons_right {
-    width: clamp(min(20px), 4.687vw, max(60px));
-    height: clamp(min(20px), 4.687vw, max(60px));
-
-    background-image: url("../../assets/arrow_right.png");
-    background-size: cover;
-    background-color: #353d4d;
-    border: none;
-  }
-
-  .wood-cards {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 4vw;
-  }
   .wood-card {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 1.8vw;
-  }
-  .wood-card-card {
-    width: 35vw;
+    width: clamp(min(193px), 24.92vw, max(319px));
     margin: auto;
     background-color: #ffffff;
+
+    position: relative;
+    right: 16.7vw;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .wood-card-card_img {
-    width: 35vw;
-    height: 27.824vw;
+  .wood-card_img {
+    width: clamp(min(193px), 24.92vw, max(319px));
+    height: 19.81vw;
   }
-  .wood-card-card-description {
+  .wood-card-description {
     width: 100%;
     background-color: #d9d9d9;
 
@@ -247,14 +218,14 @@
     justify-content: center;
     align-items: center;
   }
-  .wood-card-card-description_p {
-    font-size: clamp(min(18px), 2.343vw, max(30px));
+  .wood-card-description_p {
+    font-size: clamp(min(14px), 1.87vw, max(24px));
     font-weight: bold;
     text-align: center;
   }
-  .wood-card-card-description_button {
-    width: 25.65vw;
-    height: 8.611vw;
+  .wood-card-description_button {
+    width: 18vw;
+    height: 4.256vw;
 
     display: flex;
     justify-content: center;
@@ -264,7 +235,7 @@
     border: none;
 
     color: #ffffff;
-    font-size: clamp(min(14.5px), 1.875vw, max(24px));
+    font-size: clamp(min(12px), 1.562vw, max(20px));
   }
 
   .wood-description {
@@ -272,7 +243,7 @@
     background-color: rgba(255, 255, 255, 0.15);
 
     margin: auto;
-    margin-top: 4vw;
+    margin-top: 2vw;
 
     padding: 2vw 2vw 1vw 2vw;
 
@@ -295,6 +266,12 @@
     height: 100%;
 
     margin-top: 2vw;
+  }
+  .mySwiperMedium {
+    display: none;
+  }
+  .mySwiperLarge {
+    display: none;
   }
 
   .wood-title {
@@ -327,7 +304,6 @@
     justify-content: center;
     align-items: center;
   }
-
   .card-buttons_left {
     width: clamp(min(20px), 5.797vw, max(45px));
     height: clamp(min(20px), 5.797vw, max(45px));
@@ -414,7 +390,7 @@
     background-color: rgba(255, 255, 255, 0.15);
 
     margin: auto;
-    margin-top: 6vw;
+    margin-top: 3vw;
 
     padding: 2vw 2vw 1vw 2vw;
 

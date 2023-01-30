@@ -29,7 +29,7 @@ export class WoodComponent {
     'NÓŻ ESCHLBOCK\n230X140X18 MM 30/35*',
   ];
 
-  swiperConfig: SwiperOptions = {
+  swiperConfigSmall: SwiperOptions = {
     slidesPerView: 1,
     spaceBetween: 30,
     centeredSlides: true,
@@ -45,6 +45,36 @@ export class WoodComponent {
       nextEl: '.card-buttons_right',
       prevEl: '.card-buttons_left',
     },
+  };
+
+  swiperConfigMedium: SwiperOptions = {
+    slidesPerView: 2,
+    spaceBetween: -60,
+    centeredSlides: true,
+    loop: true,
+    autoplay: {
+      delay: 4000,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      clickable: true,
+    },
+    navigation: true,
+  };
+
+  swiperConfigLarge: SwiperOptions = {
+    slidesPerView: 3,
+    spaceBetween: -90,
+    centeredSlides: true,
+    loop: true,
+    autoplay: {
+      delay: 4000,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      clickable: true,
+    },
+    navigation: true,
   };
 
   ngOnInit(): void {}
