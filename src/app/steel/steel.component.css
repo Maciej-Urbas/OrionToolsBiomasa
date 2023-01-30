@@ -1,4 +1,4 @@
-.wood {
+.steel {
   width: 100%;
   background-color: #353d4d;
 
@@ -6,22 +6,22 @@
   top: 0;
   left: 0;
 
-  margin-top: 6vw;
+  padding-top: 2vw;
 
   font-family: "Titillium Web", sans-serif;
   overflow-x: hidden;
 }
-.wood-img {
+.steel-img {
   width: 100%;
   height: clamp(min(36.311px), 17.291vw, max(332px));
 }
-.wood-title_numbers {
+.steel-title_numbers {
   font-family: "Abel", sans-serif;
 }
-.wood-title_title {
+.steel-title_title {
   font-family: "Titillium Web", sans-serif;
 }
-.wood-card-description_p {
+.steel-card-description_p {
   white-space: pre-line;
 }
 
@@ -46,16 +46,16 @@
 }
 
 @media screen and (min-width: 1281px) and (max-width: 1920px) {
-  .woodSwiperSmall1 {
+  .steelSwiperSmall1 {
     display: none;
   }
-  .woodSwiperSmall2 {
+  .steelSwiperSmall2 {
     display: none;
   }
-  .woodSwiperMedium {
+  .steelSwiperMedium {
     display: none;
   }
-  .woodSwiperLarge {
+  .steelSwiperLarge {
     width: 82vw;
     height: 100%;
 
@@ -63,7 +63,7 @@
     padding-bottom: 4vw;
   }
 
-  .wood-title {
+  .steel-title {
     margin-top: 3vw;
     margin-left: 6vw;
 
@@ -72,13 +72,13 @@
     justify-content: baseline;
     align-items: center;
   }
-  .wood-title_numbers {
+  .steel-title_numbers {
     color: #ffffff;
     font-size: clamp(min(85.4px), 6.66vw, max(128px));
     font-weight: bolder;
     opacity: 0.15;
   }
-  .wood-title_title {
+  .steel-title_title {
     color: #ffffff;
     font-size: clamp(min(40px), 3.125vw, max(60px));
     font-weight: bold;
@@ -87,7 +87,7 @@
     right: 3.5vw;
   }
 
-  .wood-card {
+  .steel-card {
     width: 17.76vw;
     margin: auto;
     background-color: #ffffff;
@@ -97,11 +97,11 @@
     justify-content: center;
     align-items: center;
   }
-  .wood-card_img {
+  .steel-card_img {
     width: 17.76vw;
     height: 14.118vw;
   }
-  .wood-card-description {
+  .steel-card-description {
     width: 100%;
     background-color: #d9d9d9;
 
@@ -112,12 +112,12 @@
     justify-content: center;
     align-items: center;
   }
-  .wood-card-description_p {
+  .steel-card-description_p {
     font-size: clamp(min(16px), 1.25vw, max(24px));
     font-weight: bold;
     text-align: center;
   }
-  .wood-card-description_button {
+  .steel-card-description_button {
     width: 13vw;
     height: 3vw;
 
@@ -132,7 +132,7 @@
     font-size: clamp(min(13.3px), 1.04vw, max(20px));
   }
 
-  .wood-description {
+  .steel-description {
     width: 80%;
     background-color: rgba(255, 255, 255, 0.15);
 
@@ -149,16 +149,16 @@
 }
 
 @media screen and (min-width: 777px) and (max-width: 1280px) {
-  .woodSwiperSmall1 {
+  .steelSwiperSmall1 {
     display: none;
   }
-  .woodSwiperSmall2 {
+  .steelSwiperSmall2 {
     display: none;
   }
-  .woodSwiperLarge {
+  .steelSwiperLarge {
     display: none;
   }
-  .woodSwiperMedium {
+  .steelSwiperMedium {
     width: clamp(min(592.46px), 76.25vw, max(976px));
     height: 100%;
 
@@ -166,7 +166,7 @@
     padding-bottom: clamp(min(44px), 4vw, max(52px));
   }
 
-  .wood-title {
+  .steel-title {
     margin-top: 3vw;
     margin-left: 6vw;
 
@@ -175,13 +175,13 @@
     justify-content: baseline;
     align-items: center;
   }
-  .wood-title_numbers {
+  .steel-title_numbers {
     color: #ffffff;
     font-size: clamp(min(72px), 6.718vw, max(86px));
     font-weight: bolder;
     opacity: 0.15;
   }
-  .wood-title_title {
+  .steel-title_title {
     color: #ffffff;
     font-size: clamp(min(24.281px), 5.714vw, max(40px));
     font-weight: bold;
@@ -192,7 +192,7 @@
     right: 3.6vw;
   }
 
-  .wood-card {
+  .steel-card {
     width: clamp(min(193px), 24.92vw, max(319px));
     margin: auto;
     background-color: #ffffff;
@@ -205,11 +205,11 @@
     justify-content: center;
     align-items: center;
   }
-  .wood-card_img {
+  .steel-card_img {
     width: clamp(min(193px), 24.92vw, max(319px));
     height: 19.81vw;
   }
-  .wood-card-description {
+  .steel-card-description {
     width: 100%;
     background-color: #d9d9d9;
 
@@ -220,12 +220,12 @@
     justify-content: center;
     align-items: center;
   }
-  .wood-card-description_p {
+  .steel-card-description_p {
     font-size: clamp(min(14px), 1.87vw, max(24px));
     font-weight: bold;
     text-align: center;
   }
-  .wood-card-description_button {
+  .steel-card-description_button {
     width: 18vw;
     height: 4.256vw;
 
@@ -240,7 +240,7 @@
     font-size: clamp(min(12px), 1.562vw, max(20px));
   }
 
-  .wood-description {
+  .steel-description {
     width: 80%;
     background-color: rgba(255, 255, 255, 0.15);
 
@@ -257,39 +257,39 @@
 }
 
 @media screen and (min-width: 2px) and (max-width: 776px) {
-  .woodSwiperSmall1 {
+  .steelSwiperSmall1 {
     width: clamp(min(178px), 64vw, max(496.64px));
     height: 100%;
 
     margin-top: 2vw;
   }
-  .woodSwiperSmall2 {
+  .steelSwiperSmall2 {
     width: clamp(min(178px), 64vw, max(496.64px));
     height: 100%;
 
     margin-top: 2vw;
   }
-  .woodSwiperMedium {
+  .steelSwiperMedium {
     display: none;
   }
-  .woodSwiperLarge {
+  .steelSwiperLarge {
     display: none;
   }
 
-  .wood-title {
+  .steel-title {
     margin-top: 3vw;
 
     display: flex;
     flex-direction: row;
     justify-content: center;
   }
-  .wood-title_numbers {
+  .steel-title_numbers {
     color: #ffffff;
     font-size: clamp(min(26px), 12.38vw, max(64px));
     font-weight: bolder;
     opacity: 0.15;
   }
-  .wood-title_title {
+  .steel-title_title {
     color: #ffffff;
     font-size: clamp(min(12px), 5.714vw, max(30px));
     font-weight: bold;
@@ -299,7 +299,7 @@
     right: 4.2vw;
   }
 
-  .wood-buttons-helper {
+  .steel-buttons-helper {
     display: flex;
     flex-direction: row;
 
@@ -329,7 +329,7 @@
     border: none;
   }
 
-  .wood-card {
+  .steel-card {
     width: clamp(min(116px), 40vw, max(310.4px));
     margin: auto;
     background-color: #353d4d;
@@ -342,7 +342,7 @@
     align-items: center;
   }
 
-  .wood-card-img_helper {
+  .steel-card-img_helper {
     width: 100%;
     background-color: #fff;
 
@@ -351,11 +351,11 @@
     justify-content: center;
     align-items: center;
   }
-  .wood-card_img {
+  .steel-card_img {
     width: clamp(min(116px), 40vw, max(310.4px));
     height: clamp(min(92.22px), 31.8vw, max(246.8px));
   }
-  .wood-card-description {
+  .steel-card-description {
     width: 100%;
     background-color: #d9d9d9;
 
@@ -366,12 +366,12 @@
     justify-content: center;
     align-items: center;
   }
-  .wood-card-description_p {
+  .steel-card-description_p {
     font-size: clamp(min(8px), 2.577vw, max(20px));
     font-weight: bold;
     text-align: center;
   }
-  .wood-card-description_button {
+  .steel-card-description_button {
     width: clamp(min(81.2px), 28vw, max(217px));
     height: clamp(min(27.26px), 9.4vw, max(73px));
 
@@ -387,7 +387,7 @@
     font-weight: bold;
   }
 
-  .wood-description {
+  .steel-description {
     width: 80%;
     background-color: rgba(255, 255, 255, 0.15);
 

@@ -11,25 +11,25 @@ import SwiperCore, {
 SwiperCore.use([Keyboard, Pagination, Navigation, Virtual, Autoplay]);
 
 @Component({
-  selector: 'app-wood',
-  templateUrl: './wood.component.html',
-  styleUrls: ['./wood.component.css'],
+  selector: 'app-steel',
+  templateUrl: './steel.component.html',
+  styleUrls: ['./steel.component.css'],
 })
-export class WoodComponent {
+export class SteelComponent {
   constructor() {}
 
-  WoodCaptions: Array<string> = [
-    'NÓŻ PODPOROWY SKORPION\n506X76X20 MM A',
-    'NÓŻ RĘBAKA SKORPION\n516X89X18 MM',
-    'NÓŻ RĘBAKA JENZ\n210x120x12 MM 30*',
-    'EWD NÓŻ LEWY\n75X39X15,9/9 MM',
-    'EWD NÓŻ PRAWY\n75X39X15,9/9 MM',
-    'NÓŻ RĘBAKA EWD\n289X115X12 MM',
-    'NÓŻ RĘBAKA ESCHLBOCK\n124x62x8 mm',
-    'NÓŻ ESCHLBOCK\n230X140X18 MM 30/35*',
+  steelCaptions: Array<string> = [
+    'NÓŻ NOŻYCY 280X60X35\nMM VTN',
+    'NÓŻ PRASONOŻYCY 450X140X60\nMM BONFIGLIOLI',
+    'NÓŻ GILOTYNY PROSTY\n1040X55X20 MM DURMA',
+    'NÓŻ GILOTYNY SKOŚNY\n1040X55X20 MM DURMA',
+    'NÓŻ DO ŁAMACZA SZYN VTN\n170X170X45 MM',
+    'NÓŻ PRASONOŻYC BONFIGLIOLI\n620X150X70 MM',
+    'NÓŻ VTN 249X182/92,4/81/30\nMM',
+    'NÓŻ VTN\n260X98X48 MM',
   ];
 
-  woodSwiperConfigSmall: SwiperOptions = {
+  steelSwiperConfigSmall: SwiperOptions = {
     slidesPerView: 1,
     spaceBetween: 30,
     centeredSlides: true,
@@ -47,7 +47,7 @@ export class WoodComponent {
     },
   };
 
-  woodSwiperConfigMedium: SwiperOptions = {
+  steelSwiperConfigMedium: SwiperOptions = {
     slidesPerView: 2,
     spaceBetween: -60,
     centeredSlides: true,
@@ -62,7 +62,7 @@ export class WoodComponent {
     navigation: true,
   };
 
-  woodSwiperConfigLarge: SwiperOptions = {
+  steelSwiperConfigLarge: SwiperOptions = {
     slidesPerView: 3,
     spaceBetween: -90,
     centeredSlides: true,
@@ -76,6 +76,4 @@ export class WoodComponent {
     },
     navigation: true,
   };
-
-  ngOnInit(): void {}
 }
