@@ -12,11 +12,9 @@
   justify-content: center;
 }
 
-@media screen and (min-width: 2px) and (max-width: 776px) {
-  .baner {
-    height: clamp(min(65px), 30.952vw, max(127.17px));
-  }
-  .baner_logo {
-    height: clamp(min(48px), 22.857vw, max(84.433px));
-  }
+.baner {
+  height: clamp(min(65px), 30.952vw, max(127.17px));
+}
+.baner_logo {
+  height: clamp(min(48px), 22.857vw, max(84.433px));
 }
