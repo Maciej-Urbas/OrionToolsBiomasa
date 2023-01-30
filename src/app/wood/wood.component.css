@@ -133,13 +133,13 @@
   }
 
   .wood-description {
-    width: 80%;
+    width: 54%;
     background-color: rgba(255, 255, 255, 0.15);
 
     margin: auto;
     margin-top: 2vw;
 
-    padding: 2vw 2vw 1vw 2vw;
+    padding: 1vw 2vw 1.2vw 2vw;
 
     text-align: center;
     font-family: "Titillium Web", sans-serif;
@@ -185,8 +185,6 @@
     color: #ffffff;
     font-size: clamp(min(24.281px), 5.714vw, max(40px));
     font-weight: bold;
-
-    /* padding-top: clamp(min(27px), 1.2vw, max(10px)); */
 
     position: relative;
     right: 3.6vw;
@@ -247,7 +245,7 @@
     margin: auto;
     margin-top: 2vw;
 
-    padding: 2vw 2vw 1vw 2vw;
+    padding: 1vw 2vw 1.4vw 2vw;
 
     text-align: center;
 
@@ -394,7 +392,7 @@
     margin: auto;
     margin-top: 3vw;
 
-    padding: 2vw 2vw 1vw 2vw;
+    padding: 2vw 2vw 2.4vw 2vw;
 
     text-align: center;
     font-family: "Titillium Web", sans-serif;
