@@ -1,0 +1,240 @@
+.regen {
+  width: 100%;
+  background-color: #353d4d;
+
+  position: relative;
+  top: 0;
+  left: 0;
+
+  overflow: hidden;
+
+  font-family: "Titillium Web", sans-serif;
+}
+
+.regen-title_numbers {
+  font-family: "Abel", sans-serif;
+}
+.regen-title_title {
+  font-family: "Titillium Web", sans-serif;
+}
+
+@media screen and (min-width: 777px) and (max-width: 1920px) {
+  .regen-title {
+    padding-top: 3vw;
+    margin-left: 6vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: center;
+  }
+  .regen-title_numbers {
+    color: #ffffff;
+    font-size: clamp(min(85.4px), 6.66vw, max(128px));
+    font-weight: bolder;
+    opacity: 0.15;
+  }
+  .regen-title_title {
+    color: #ffffff;
+    font-size: clamp(min(40px), 3.125vw, max(60px));
+    font-weight: bold;
+
+    position: relative;
+    right: 3.5vw;
+  }
+  .regen-title_title2 {
+    color: #ffffff;
+    font-size: clamp(min(40px), 3.125vw, max(60px));
+    font-weight: bold;
+
+    position: relative;
+    bottom: clamp(min(30px), 2.6vw, max(50px));
+    left: 8vw;
+
+    text-align: baseline;
+  }
+
+  .regen-helper {
+    width: 92%;
+    margin: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .regen-card {
+    width: 31.3vw;
+    background-color: #ffffff;
+    margin: auto;
+
+    padding-bottom: 4vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .regen-card_img {
+    width: 31.3vw;
+    height: 19.94vw;
+
+    margin-top: 3vw;
+  }
+  .regen-card_description {
+    text-align: center;
+    font-weight: bold;
+    font-size: clamp(min(12px), 1.56vw, max(30px));
+  }
+  .regen-card_button {
+    width: 52%;
+    height: clamp(min(27.26px), 4vw, max(73px));
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #00963f;
+    border: none;
+
+    color: #ffffff;
+    font-size: clamp(min(10px), 1.354vw, max(26px));
+    font-weight: bold;
+  }
+
+  .regen-texts {
+    width: 52%;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+  }
+  .regen-texts_p {
+    font-family: "Titillium Web", sans-serif;
+    font-size: clamp(min(14px), 1.875vw, max(36px));
+    color: white;
+  }
+
+  .regen-description {
+    width: 54%;
+    background-color: rgba(255, 255, 255, 0.15);
+
+    margin: auto;
+    margin-top: 3vw;
+
+    padding: 1vw 2vw 1.2vw 2vw;
+
+    text-align: center;
+    font-family: "Titillium Web", sans-serif;
+    font-size: clamp(min(21.35px), 1.66vw, max(32px));
+    color: white;
+  }
+}
+
+@media screen and (min-width: 2px) and (max-width: 776px) {
+  .regen-title {
+    padding-top: 3vw;
+    margin-left: 3vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .regen-title_numbers {
+    color: #ffffff;
+    font-size: clamp(min(26px), 12.38vw, max(64px));
+    font-weight: bolder;
+    opacity: 0.15;
+  }
+  .regen-title_title {
+    color: #ffffff;
+    font-size: clamp(min(12px), 5.714vw, max(30px));
+    font-weight: bold;
+
+    position: relative;
+    top: clamp(min(1px), 3.4vw, max(20px));
+    right: 4.2vw;
+  }
+  .regen-title_title2 {
+    color: #ffffff;
+    font-size: clamp(min(12px), 5.714vw, max(30px));
+    font-weight: bold;
+
+    position: relative;
+    bottom: 3vw;
+
+    text-align: center;
+  }
+
+  .regen-helper {
+    display: flex;
+    flex-direction: column;
+  }
+  .regen-card {
+    width: 68.888vw;
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 3vw;
+
+    padding-bottom: 4vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .regen-card_img {
+    width: 59.44vw;
+    height: 37.77vw;
+
+    margin-top: 3vw;
+  }
+  .regen-card_description {
+    text-align: center;
+    font-weight: bold;
+    font-size: clamp(min(10px), 4.44vw, max(35px));
+  }
+  .regen-card_button {
+    width: 56%;
+    height: clamp(min(26px), 7vw, max(54.32px));
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #00963f;
+    border: none;
+
+    color: #ffffff;
+    font-size: clamp(min(8px), 3.809vw, max(20px));
+    font-weight: bold;
+  }
+
+  .regen-texts {
+    width: 86%;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+  }
+  .regen-texts_p {
+    font-family: "Titillium Web", sans-serif;
+    font-size: clamp(min(8px), 3.809vw, max(20px));
+    color: white;
+  }
+
+  .regen-description {
+    width: 78%;
+    background-color: rgba(255, 255, 255, 0.15);
+
+    margin: auto;
+    margin-top: 3vw;
+
+    padding: 3vw 7vw 2.4vw 7vw;
+
+    text-align: center;
+    font-family: "Titillium Web", sans-serif;
+    font-size: clamp(min(8px), 3.809vw, max(20px));
+    color: white;
+  }
+}

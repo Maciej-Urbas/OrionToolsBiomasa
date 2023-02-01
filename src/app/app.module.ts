@@ -10,9 +10,10 @@ import { AboutComponent } from './about/about.component';
 import { WoodComponent } from './wood/wood.component';
 import { SteelComponent } from './steel/steel.component';
 import { RecycleComponent } from './recycle/recycle.component';
+import { RegenComponent } from './regen/regen.component';
 
 @NgModule({
-  declarations: [AppComponent, BanerComponent, AboutComponent, WoodComponent, SteelComponent, RecycleComponent],
+  declarations: [AppComponent, BanerComponent, AboutComponent, WoodComponent, SteelComponent, RecycleComponent, RegenComponent],
   imports: [BrowserModule, CommonModule, SwiperModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
