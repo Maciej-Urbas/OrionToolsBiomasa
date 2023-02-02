@@ -76,4 +76,13 @@ export class NewestComponent {
     },
     navigation: true,
   };
+
+  newestUrl: string = 'https://www.oriontools.pl/pl_PL/offer';
+
+  newestLink(): void {
+    const w = window.open(this.newestUrl, '_blank');
+    if (w) {
+      w.focus();
+    }
+  }
 }

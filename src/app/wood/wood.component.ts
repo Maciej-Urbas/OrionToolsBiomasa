@@ -77,5 +77,14 @@ export class WoodComponent {
     navigation: true,
   };
 
+  woodUrl: string = 'https://www.oriontools.pl/pl_PL/offer';
+
+  woodLink(): void {
+    const w = window.open(this.woodUrl, '_blank');
+    if (w) {
+      w.focus();
+    }
+  }
+
   ngOnInit(): void {}
 }

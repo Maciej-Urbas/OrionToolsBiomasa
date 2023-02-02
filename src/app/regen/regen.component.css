@@ -18,6 +18,10 @@
   font-family: "Titillium Web", sans-serif;
 }
 
+.regen-card_button:hover {
+  background-color: #0f612a;
+}
+
 @media screen and (min-width: 777px) and (max-width: 1920px) {
   .regen-title {
     padding-top: 3vw;

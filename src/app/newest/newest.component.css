@@ -39,6 +39,10 @@
   align-items: center;
 }
 
+.newest-card-description_button:hover {
+  background-color: #0f612a;
+}
+
 @media screen and (min-width: 1281px) and (max-width: 1920px) {
   .newestSwiperSmall1 {
     display: none;

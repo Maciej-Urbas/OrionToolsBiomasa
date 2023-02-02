@@ -76,4 +76,13 @@ export class RecycleComponent {
     },
     navigation: true,
   };
+
+  recycleUrl: string = 'https://www.oriontools.pl/pl_PL/offer';
+
+  recycleLink(): void {
+    const w = window.open(this.recycleUrl, '_blank');
+    if (w) {
+      w.focus();
+    }
+  }
 }

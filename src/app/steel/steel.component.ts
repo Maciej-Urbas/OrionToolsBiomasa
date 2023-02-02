@@ -76,4 +76,13 @@ export class SteelComponent {
     },
     navigation: true,
   };
+
+  steelUrl: string = 'https://www.oriontools.pl/pl_PL/offer';
+
+  steelLink(): void {
+    const w = window.open(this.steelUrl, '_blank');
+    if (w) {
+      w.focus();
+    }
+  }
 }
