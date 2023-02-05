@@ -1,4 +1,35 @@
-<div class="app">
+<div class="app" (scroll)="onScroll()">
+  <button class="scroll-to-top_button" (click)="scrollTop()"></button>
+
+  <button
+    class="app-menu_button"
+    (click)="toggle()"
+    [class.app-menu_button-active]="isExpanded"
+  ></button>
+  <div class="app-menu-list" [class.app-menu-list-active]="isExpanded">
+    <button class="app-menu-list_button" (click)="scrollToAbout()">
+      O firmie
+    </button>
+    <button class="app-menu-list_button" (click)="scrollToWood()">
+      Noże i osprzęt do drewna
+    </button>
+    <button class="app-menu-list_button" (click)="scrollToSteel()">
+      Noże i osprzęt do metalu
+    </button>
+    <button class="app-menu-list_button" (click)="scrollToRecycle()">
+      Noże i osprzęt do recyklingu
+    </button>
+    <button class="app-menu-list_button" (click)="scrollToRegen()">
+      Regeneracja rozdrabniaczy dwu<br />i cztero głowych
+    </button>
+    <button class="app-menu-list_button" (click)="scrollToNewest()">
+      Najnowsze produkty
+    </button>
+    <button class="app-menu-list_button" (click)="scrollToFooter()">
+      Kontakt
+    </button>
+  </div>
+
   <app-baner></app-baner>
   <app-about></app-about>
   <app-wood></app-wood>

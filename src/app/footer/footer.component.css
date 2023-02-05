@@ -12,15 +12,19 @@
 
 a:link {
   text-decoration: none;
+  color: #000;
 }
 a:visited {
   text-decoration: none;
+  color: #000;
 }
 a:hover {
   text-decoration: none;
+  color: #000;
 }
 a:active {
   text-decoration: none;
+  color: #000;
 }
 
 .footer-form_submit:hover {
@@ -98,7 +102,7 @@ a:active {
 
     margin-left: 5vw;
 
-    font-size: clamp(min(16px), 2.08vw, max(40px));
+    font-size: clamp(min(12px), 1.667vw, max(32px));
     font-family: "Titillium Web", sans-serif;
   }
   .footer-form_email {
@@ -195,6 +199,7 @@ a:active {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #000;
 
     font-size: clamp(min(7px), 1.8vw, max(20px));
   }

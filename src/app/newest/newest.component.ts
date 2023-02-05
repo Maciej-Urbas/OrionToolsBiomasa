@@ -29,21 +29,38 @@ export class NewestComponent {
     'NÓŻ GETECHA\n1220X79X23 MM',
   ];
 
-  newestSwiperConfigSmall: SwiperOptions = {
+  newestSwiperConfigSmall1: SwiperOptions = {
     slidesPerView: 1,
     spaceBetween: 30,
     centeredSlides: true,
     loop: true,
-    autoplay: {
-      delay: 4000,
-      disableOnInteraction: false,
-    },
+    // autoplay: {
+    //   delay: 4000,
+    //   disableOnInteraction: false,
+    // },
     pagination: {
       clickable: true,
     },
     navigation: {
-      nextEl: '.card-buttons_right',
-      prevEl: '.card-buttons_left',
+      nextEl: '.newest-card-buttons_right1',
+      prevEl: '.newest-card-buttons_left1',
+    },
+  };
+  newestSwiperConfigSmall2: SwiperOptions = {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    centeredSlides: true,
+    loop: true,
+    // autoplay: {
+    //   delay: 4000,
+    //   disableOnInteraction: false,
+    // },
+    pagination: {
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.newest-card-buttons_right2',
+      prevEl: '.newest-card-buttons_left2',
     },
   };
 
@@ -52,10 +69,10 @@ export class NewestComponent {
     spaceBetween: -60,
     centeredSlides: true,
     loop: true,
-    autoplay: {
-      delay: 4000,
-      disableOnInteraction: false,
-    },
+    // autoplay: {
+    //   delay: 4000,
+    //   disableOnInteraction: false,
+    // },
     pagination: {
       clickable: true,
     },
@@ -67,10 +84,10 @@ export class NewestComponent {
     spaceBetween: -90,
     centeredSlides: true,
     loop: true,
-    autoplay: {
-      delay: 4000,
-      disableOnInteraction: false,
-    },
+    // autoplay: {
+    //   delay: 4000,
+    //   disableOnInteraction: false,
+    // },
     pagination: {
       clickable: true,
     },

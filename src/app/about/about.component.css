@@ -164,7 +164,7 @@
     padding-right: 4vw;
 
     font-size: clamp(min(8px), 1.875vw, max(24px));
-    text-align: justify;
+    text-align: left;
   }
 }
 
@@ -242,6 +242,6 @@
     padding-right: 4vw;
 
     font-size: clamp(min(8px), 1.875vw, max(24px));
-    text-align: justify;
+    text-align: left;
   }
 }

@@ -29,21 +29,38 @@ export class WoodComponent {
     'NÓŻ ESCHLBOCK\n230X140X18 MM 30/35*',
   ];
 
-  woodSwiperConfigSmall: SwiperOptions = {
+  woodSwiperConfigSmall1: SwiperOptions = {
     slidesPerView: 1,
     spaceBetween: 30,
     centeredSlides: true,
     loop: true,
-    autoplay: {
-      delay: 4000,
-      disableOnInteraction: false,
-    },
+    // autoplay: {
+    //   delay: 4000,
+    //   disableOnInteraction: false,
+    // },
     pagination: {
       clickable: true,
     },
     navigation: {
-      nextEl: '.card-buttons_right',
-      prevEl: '.card-buttons_left',
+      nextEl: '.wood-card-buttons_right1',
+      prevEl: '.wood-card-buttons_left1',
+    },
+  };
+  woodSwiperConfigSmall2: SwiperOptions = {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    centeredSlides: true,
+    loop: true,
+    // autoplay: {
+    //   delay: 4000,
+    //   disableOnInteraction: false,
+    // },
+    pagination: {
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.wood-card-buttons_right2',
+      prevEl: '.wood-card-buttons_left2',
     },
   };
 
@@ -52,10 +69,10 @@ export class WoodComponent {
     spaceBetween: -60,
     centeredSlides: true,
     loop: true,
-    autoplay: {
-      delay: 4000,
-      disableOnInteraction: false,
-    },
+    // autoplay: {
+    //   delay: 4000,
+    //   disableOnInteraction: false,
+    // },
     pagination: {
       clickable: true,
     },
@@ -67,10 +84,10 @@ export class WoodComponent {
     spaceBetween: -90,
     centeredSlides: true,
     loop: true,
-    autoplay: {
-      delay: 4000,
-      disableOnInteraction: false,
-    },
+    // autoplay: {
+    //   delay: 4000,
+    //   disableOnInteraction: false,
+    // },
     pagination: {
       clickable: true,
     },

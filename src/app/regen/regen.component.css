@@ -6,7 +6,7 @@
   top: 0;
   left: 0;
 
-  overflow: hidden;
+  overflow-x: hidden;
 
   font-family: "Titillium Web", sans-serif;
 }

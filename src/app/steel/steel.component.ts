@@ -29,21 +29,38 @@ export class SteelComponent {
     'NÓŻ VTN\n260X98X48 MM',
   ];
 
-  steelSwiperConfigSmall: SwiperOptions = {
+  steelSwiperConfigSmall1: SwiperOptions = {
     slidesPerView: 1,
     spaceBetween: 30,
     centeredSlides: true,
     loop: true,
-    autoplay: {
-      delay: 4000,
-      disableOnInteraction: false,
-    },
+    // autoplay: {
+    //   delay: 4000,
+    //   disableOnInteraction: false,
+    // },
     pagination: {
       clickable: true,
     },
     navigation: {
-      nextEl: '.card-buttons_right',
-      prevEl: '.card-buttons_left',
+      nextEl: '.steel-card-buttons_right1',
+      prevEl: '.steel-card-buttons_left1',
+    },
+  };
+  steelSwiperConfigSmall2: SwiperOptions = {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    centeredSlides: true,
+    loop: true,
+    // autoplay: {
+    //   delay: 4000,
+    //   disableOnInteraction: false,
+    // },
+    pagination: {
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.steel-card-buttons_right2',
+      prevEl: '.steel-card-buttons_left2',
     },
   };
 
@@ -52,10 +69,10 @@ export class SteelComponent {
     spaceBetween: -60,
     centeredSlides: true,
     loop: true,
-    autoplay: {
-      delay: 4000,
-      disableOnInteraction: false,
-    },
+    // autoplay: {
+    //   delay: 4000,
+    //   disableOnInteraction: false,
+    // },
     pagination: {
       clickable: true,
     },
@@ -67,10 +84,10 @@ export class SteelComponent {
     spaceBetween: -90,
     centeredSlides: true,
     loop: true,
-    autoplay: {
-      delay: 4000,
-      disableOnInteraction: false,
-    },
+    // autoplay: {
+    //   delay: 4000,
+    //   disableOnInteraction: false,
+    // },
     pagination: {
       clickable: true,
     },

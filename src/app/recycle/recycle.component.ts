@@ -29,7 +29,7 @@ export class RecycleComponent {
     'NÓŻ OŚMIOKĄTNY VECOPLAN\nVEZ 60X60X30 MM B M18',
   ];
 
-  recycleSwiperConfigSmall: SwiperOptions = {
+  recycleSwiperConfigSmall1: SwiperOptions = {
     slidesPerView: 1,
     spaceBetween: 30,
     centeredSlides: true,
@@ -42,8 +42,25 @@ export class RecycleComponent {
       clickable: true,
     },
     navigation: {
-      nextEl: '.card-buttons_right',
-      prevEl: '.card-buttons_left',
+      nextEl: '.recycle-card-buttons_right1',
+      prevEl: '.recycle-card-buttons_left1',
+    },
+  };
+  recycleSwiperConfigSmall2: SwiperOptions = {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    centeredSlides: true,
+    loop: true,
+    autoplay: {
+      delay: 4000,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.recycle-card-buttons_right2',
+      prevEl: '.recycle-card-buttons_left2',
     },
   };
 
@@ -52,10 +69,10 @@ export class RecycleComponent {
     spaceBetween: -60,
     centeredSlides: true,
     loop: true,
-    autoplay: {
-      delay: 4000,
-      disableOnInteraction: false,
-    },
+    // autoplay: {
+    //   delay: 4000,
+    //   disableOnInteraction: false,
+    // },
     pagination: {
       clickable: true,
     },
@@ -67,10 +84,10 @@ export class RecycleComponent {
     spaceBetween: -90,
     centeredSlides: true,
     loop: true,
-    autoplay: {
-      delay: 4000,
-      disableOnInteraction: false,
-    },
+    // autoplay: {
+    //   delay: 4000,
+    //   disableOnInteraction: false,
+    // },
     pagination: {
       clickable: true,
     },
