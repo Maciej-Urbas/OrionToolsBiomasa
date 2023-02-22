@@ -34,10 +34,10 @@ export class RecycleComponent {
     spaceBetween: 30,
     centeredSlides: true,
     loop: true,
-    autoplay: {
-      delay: 4000,
-      disableOnInteraction: false,
-    },
+    // autoplay: {
+    //   delay: 4000,
+    //   disableOnInteraction: false,
+    // },
     pagination: {
       clickable: true,
     },
@@ -51,10 +51,10 @@ export class RecycleComponent {
     spaceBetween: 30,
     centeredSlides: true,
     loop: true,
-    autoplay: {
-      delay: 4000,
-      disableOnInteraction: false,
-    },
+    // autoplay: {
+    //   delay: 4000,
+    //   disableOnInteraction: false,
+    // },
     pagination: {
       clickable: true,
     },
