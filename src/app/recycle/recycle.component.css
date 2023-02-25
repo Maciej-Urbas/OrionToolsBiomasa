@@ -183,13 +183,13 @@
   }
   .recycle-title_numbers {
     color: #ffffff;
-    font-size: clamp(min(72px), 6.718vw, max(86px));
+    font-size: clamp(min(52px), 6.718vw, max(86px));
     font-weight: bolder;
     opacity: 0.15;
   }
   .recycle-title_title {
     color: #ffffff;
-    font-size: clamp(min(24.281px), 5.714vw, max(40px));
+    font-size: clamp(min(24.281px), 3.124vw, max(40px));
     font-weight: bold;
 
     /* padding-top: clamp(min(27px), 1.2vw, max(10px)); */
@@ -292,20 +292,20 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
   }
   .recycle-title_numbers {
     color: #ffffff;
-    font-size: clamp(min(26px), 12.38vw, max(64px));
+    font-size: clamp(min(17px), 8.247vw, max(64px));
     font-weight: bolder;
     opacity: 0.15;
   }
   .recycle-title_title {
     color: #ffffff;
-    font-size: clamp(min(12px), 5.714vw, max(30px));
+    font-size: clamp(min(8px), 3.865vw, max(30px));
     font-weight: bold;
 
     position: relative;
-    top: clamp(min(1px), 3.4vw, max(20px));
     right: 4.2vw;
   }
 

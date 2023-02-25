@@ -1,5 +1,10 @@
 <div class="newest">
-  <img class="newest_baner" src="../../assets/newest/newestBaner.png" />
+  <div class="newest-baner">
+    <div class="newest-baner_onDisplay">
+      LATEST <span class="color_primary">PRODUCTS</span>
+    </div>
+    <div class="newest-baner_inBackground">P R O D U C T S</div>
+  </div>
 
   <swiper [config]="newestSwiperConfigSmall1" class="newestSwiperSmall1">
     <ng-template swiperSlide
@@ -23,7 +28,7 @@
               (click)="newestLink()"
               class="newest-card-description_button"
             >
-              PRZEJDŹ DO SKLEPU
+              VIEW MORE
             </button>
           </div>
         </div>
@@ -53,7 +58,7 @@
               (click)="newestLink()"
               class="newest-card-description_button"
             >
-              PRZEJDŹ DO SKLEPU
+              VIEW MORE
             </button>
           </div>
         </div>
@@ -83,7 +88,7 @@
               (click)="newestLink()"
               class="newest-card-description_button"
             >
-              PRZEJDŹ DO SKLEPU
+              VIEW MORE
             </button>
           </div>
         </div>
@@ -113,7 +118,7 @@
               (click)="newestLink()"
               class="newest-card-description_button"
             >
-              PRZEJDŹ DO SKLEPU
+              VIEW MORE
             </button>
           </div>
         </div>
@@ -145,7 +150,7 @@
               (click)="newestLink()"
               class="newest-card-description_button"
             >
-              PRZEJDŹ DO SKLEPU
+              VIEW MORE
             </button>
           </div>
         </div>
@@ -175,7 +180,7 @@
               (click)="newestLink()"
               class="newest-card-description_button"
             >
-              PRZEJDŹ DO SKLEPU
+              VIEW MORE
             </button>
           </div>
         </div>
@@ -205,7 +210,7 @@
               (click)="newestLink()"
               class="newest-card-description_button"
             >
-              PRZEJDŹ DO SKLEPU
+              VIEW MORE
             </button>
           </div>
         </div>
@@ -235,7 +240,7 @@
               (click)="newestLink()"
               class="newest-card-description_button"
             >
-              PRZEJDŹ DO SKLEPU
+              VIEW MORE
             </button>
           </div>
         </div>
@@ -261,7 +266,7 @@
             {{ newestCaptions[0] }}
           </p>
           <button (click)="newestLink()" class="newest-card-description_button">
-            PRZEJDŹ DO SKLEPU
+            VIEW MORE
           </button>
         </div>
       </div>
@@ -282,7 +287,7 @@
             {{ newestCaptions[1] }}
           </p>
           <button (click)="newestLink()" class="newest-card-description_button">
-            PRZEJDŹ DO SKLEPU
+            VIEW MORE
           </button>
         </div>
       </div>
@@ -303,7 +308,7 @@
             {{ newestCaptions[2] }}
           </p>
           <button (click)="newestLink()" class="newest-card-description_button">
-            PRZEJDŹ DO SKLEPU
+            VIEW MORE
           </button>
         </div>
       </div>
@@ -324,7 +329,7 @@
             {{ newestCaptions[3] }}
           </p>
           <button (click)="newestLink()" class="newest-card-description_button">
-            PRZEJDŹ DO SKLEPU
+            VIEW MORE
           </button>
         </div>
       </div>
@@ -345,7 +350,7 @@
             {{ newestCaptions[4] }}
           </p>
           <button (click)="newestLink()" class="newest-card-description_button">
-            PRZEJDŹ DO SKLEPU
+            VIEW MORE
           </button>
         </div>
       </div>
@@ -366,7 +371,7 @@
             {{ newestCaptions[5] }}
           </p>
           <button (click)="newestLink()" class="newest-card-description_button">
-            PRZEJDŹ DO SKLEPU
+            VIEW MORE
           </button>
         </div>
       </div>
@@ -387,7 +392,7 @@
             {{ newestCaptions[6] }}
           </p>
           <button (click)="newestLink()" class="newest-card-description_button">
-            PRZEJDŹ DO SKLEPU
+            VIEW MORE
           </button>
         </div>
       </div>
@@ -408,7 +413,7 @@
             {{ newestCaptions[7] }}
           </p>
           <button (click)="newestLink()" class="newest-card-description_button">
-            PRZEJDŹ DO SKLEPU
+            VIEW MORE
           </button>
         </div>
       </div>
@@ -431,7 +436,7 @@
             {{ newestCaptions[0] }}
           </p>
           <button (click)="newestLink()" class="newest-card-description_button">
-            PRZEJDŹ DO SKLEPU
+            VIEW MORE
           </button>
         </div>
       </div>
@@ -452,7 +457,7 @@
             {{ newestCaptions[1] }}
           </p>
           <button (click)="newestLink()" class="newest-card-description_button">
-            PRZEJDŹ DO SKLEPU
+            VIEW MORE
           </button>
         </div>
       </div>
@@ -473,7 +478,7 @@
             {{ newestCaptions[2] }}
           </p>
           <button (click)="newestLink()" class="newest-card-description_button">
-            PRZEJDŹ DO SKLEPU
+            VIEW MORE
           </button>
         </div>
       </div>
@@ -494,7 +499,7 @@
             {{ newestCaptions[3] }}
           </p>
           <button (click)="newestLink()" class="newest-card-description_button">
-            PRZEJDŹ DO SKLEPU
+            VIEW MORE
           </button>
         </div>
       </div>
@@ -515,7 +520,7 @@
             {{ newestCaptions[4] }}
           </p>
           <button (click)="newestLink()" class="newest-card-description_button">
-            PRZEJDŹ DO SKLEPU
+            VIEW MORE
           </button>
         </div>
       </div>
@@ -536,7 +541,7 @@
             {{ newestCaptions[5] }}
           </p>
           <button (click)="newestLink()" class="newest-card-description_button">
-            PRZEJDŹ DO SKLEPU
+            VIEW MORE
           </button>
         </div>
       </div>
@@ -557,7 +562,7 @@
             {{ newestCaptions[6] }}
           </p>
           <button (click)="newestLink()" class="newest-card-description_button">
-            PRZEJDŹ DO SKLEPU
+            VIEW MORE
           </button>
         </div>
       </div>
@@ -578,7 +583,7 @@
             {{ newestCaptions[7] }}
           </p>
           <button (click)="newestLink()" class="newest-card-description_button">
-            PRZEJDŹ DO SKLEPU
+            VIEW MORE
           </button>
         </div>
       </div>

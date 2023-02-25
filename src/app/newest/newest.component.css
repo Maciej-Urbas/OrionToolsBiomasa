@@ -11,10 +11,24 @@
   font-family: "Titillium Web", sans-serif;
   overflow-x: hidden;
 }
-.newest-img {
+
+.newest-baner {
   width: 100%;
   height: clamp(min(36.311px), 17.291vw, max(332px));
+
+  margin-top: 8vw;
+  margin-bottom: 6vw;
+
+  background-color: rgba(217, 217, 217, 0.56);
+
+  position: relative;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
+
 .newest-card-description_p {
   white-space: pre-line;
 }
@@ -62,12 +76,31 @@
   }
 
   .newest_baner {
-    display: flex;
     width: 100%;
     height: clamp(min(208.8px), 16.3vw, max(313px));
 
-    margin-top: 6vw;
-    margin-bottom: 4vw;
+    /* margin-top: 6vw;
+    margin-bottom: 4vw; */
+  }
+  .newest-baner_onDisplay {
+    position: absolute;
+
+    font-weight: bold;
+    font-size: clamp(min(42px), 3.334vw, max(64px));
+
+    font-family: "Titillium Web", sans-serif;
+    color: #fff;
+  }
+  .newest-baner_inBackground {
+    font-weight: bold;
+    font-size: clamp(min(64px), 5vw, max(96px));
+
+    font-family: "Titillium Web", sans-serif;
+    color: #fff;
+
+    position: relative;
+
+    opacity: 0.15;
   }
 
   .newest-card {
@@ -146,6 +179,26 @@
     margin-top: 6vw;
     margin-bottom: 4vw;
   }
+  .newest-baner_onDisplay {
+    position: absolute;
+
+    font-weight: bold;
+    font-size: clamp(min(25.5px), 3.281vw, max(42px));
+
+    font-family: "Titillium Web", sans-serif;
+    color: #fff;
+  }
+  .newest-baner_inBackground {
+    font-weight: bold;
+    font-size: clamp(min(39px), 5vw, max(64px));
+
+    font-family: "Titillium Web", sans-serif;
+    color: #fff;
+
+    position: relative;
+
+    opacity: 0.15;
+  }
 
   .newest-card {
     width: clamp(min(193px), 24.92vw, max(319px));
@@ -223,10 +276,30 @@
   .newest_baner {
     display: flex;
     width: 100%;
-    height: clamp(min(34px), 16.23vw, max(126px));
+    height: clamp(min(29px), 16.23vw, max(126px));
 
     margin-top: 6vw;
     margin-bottom: 4vw;
+  }
+  .newest-baner_onDisplay {
+    position: absolute;
+
+    font-weight: bold;
+    font-size: clamp(min(12px), 6.667vw, max(52px));
+
+    font-family: "Titillium Web", sans-serif;
+    color: #fff;
+  }
+  .newest-baner_inBackground {
+    font-weight: bold;
+    font-size: clamp(min(18px), 10.211vw, max(79.23px));
+
+    font-family: "Titillium Web", sans-serif;
+    color: #fff;
+
+    position: relative;
+
+    opacity: 0.15;
   }
 
   .newest-buttons-helper {
